@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "lsystrees:block/thin_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "lsystrees:block/thin_log"
+    },
+    "axis=z": {
+      "model": "lsystrees:block/thin_log_horizontal",
+      "x": 90
+    }
+  }
+}

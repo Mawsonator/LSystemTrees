@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "lsystrees",
+  "version": "${version}",
+
+  "name": "L-System Trees",
+  "description": "My FYP mod implementing L-Systems for trees",
+  "authors": [
+    "Matthew Mawson"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/lsystrees/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.matthewmawson.lsystrees.LSystemTrees"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
